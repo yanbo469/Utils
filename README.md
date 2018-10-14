@@ -25,6 +25,6 @@ Step 2. Add the dependency
 
 ```java
 dependencies {
-	implementation 'com.github.yanbo469:Utils:Tag'
+   implementation 'com.github.yanbo469:Utils:v1.2'
 }
-```
+
