@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">Assist</string>
+
+    <string name="login_phone_num">手机号</string>
+    <string name="login_password">密码</string>
+    <string name="login_phone_prompt">请输入注册邮箱</string>
+    <string name="login_password_prompt">请设置登录密码(6-16位)</string>
+    <string name="login_password_prompt_new">请重新设置登录密码</string>
+    <string name="login_password_prompt_again">请再次输入登录密码</string>
+    <string name="login_register">注册</string>
+    <string name="login_register_agree">注册即表示您已同意</string>
+    <string name="login_register_agreement">《用户协议》</string>
+    <string name="login_login_go">立即登录</string>
+    <string name="login_third_login">第三方登录</string>
+    <string name="login_code_send">获取验证码</string>
+    <string name="login_code">验证码</string>
+    <string name="login_code_prompt">请输入验证码</string>
+    <string name="login_third_QQ">QQ</string>
+    <string name="login_third_wx">微信</string>
+    <string name="login_register_prompt_yes">已有账号，</string>
+    <string name="login_register_prompt_no">还没有账号，</string>
+    <string name="login_set_password">密码为6-18位数字或字母组合</string>
+    <string name="login_is_password">输入密码不一致</string>
+    <string name="login_set_phone">输入手机号有误</string>
+    <string name="login_set_code">输入验证码有误</string>
+    <string name="login_forget_password">忘记密码</string>
+    <string name="login_login">登录</string>
+    <string name="login_login_email_or_phone">请输入注册邮箱或手机号码</string>
+    <string name="login_login_pwd">请设置登录密码(6-16位)</string>
+
+    <string name="double_click_to_exit">双击退出</string>
+</resources>

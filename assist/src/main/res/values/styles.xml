@@ -1,0 +1,8 @@
+<resources>
+
+    <style name="Toast" parent="@android:style/Animation.Toast">
+        <item name="android:windowEnterAnimation">@anim/toast_left_in</item>
+        <item name="android:windowExitAnimation">@anim/toast_left_out</item>
+    </style>
+
+</resources>
