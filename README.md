@@ -28,3 +28,19 @@ dependencies {
    implementation 'com.github.yanbo469:Utils:v1.2'
 }
 
+```
+
+Step 3. Add the Initialization
+
+```java
+public class Application {
+
+    @Override
+    public void onCreate() {
+        super.onCreate();
+	//初始化辅助类
+        Utils.init(this);
+    }
+}
+
+
