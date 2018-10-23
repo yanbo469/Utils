@@ -1,18 +1,35 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/bg_default"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
-
+    android:orientation="vertical">
+    <per.goweii.actionbarex.SimpleActionBar
+        android:id="@+id/action_bar_ex"
+        style="@style/ActionBarStyle"
+        app:simple_title_text="UI" />
     <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Hello World!"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-</android.support.constraint.ConstraintLayout>
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:background="?attr/selectableItemBackground"
+        android:gravity="left|center_vertical"
+        android:paddingLeft="16dp"
+        android:text="View"
+        android:textColor="@color/text_black"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+    <TextView
+        android:id="@+id/tv_login"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:background="?attr/selectableItemBackground"
+        android:drawableRight="@mipmap/next"
+        android:drawableTint="@color/text_gray_light"
+        android:gravity="left|center_vertical"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:text="仿抖音点赞"
+        android:textColor="@color/text_gray_dark"
+        android:textSize="14sp" />
+</LinearLayout>

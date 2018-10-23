@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="action_bar_height">48dp</dimen>
+    <dimen name="action_bar_bottom_line_height">0dp</dimen>
+
+    <dimen name="action_bar_title_text">17sp</dimen>
+    <dimen name="action_bar_text">15sp</dimen>
+    <dimen name="action_bar_icon_padding">15dp</dimen>
+
+
+    <!--通用按钮高度-->
+    <dimen name="button_high">45dp</dimen>
+    <!--通用按钮字体-->
+    <dimen name="button_text_size">15sp</dimen>
+    <!--通用按钮边距-->
+    <dimen name="button_margin">15dp</dimen>
+    <!--通用字体大小-->
+    <dimen name="text_size">15sp</dimen>
+    <!--通用小字体-->
+    <dimen name="text_size_small">12sp</dimen>
+
+    <dimen name="login_et_height">45dp</dimen>
+    <dimen name="login_et_text_size">15sp</dimen>
+    <dimen name="login_btn_height">48dp</dimen>
+    <dimen name="login_btn_text_size">17sp</dimen>
+    <dimen name="login_tip_text_size">14sp</dimen>
+
+    <dimen name="swipe_menu">100dp</dimen>
+</resources>

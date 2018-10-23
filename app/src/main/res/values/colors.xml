@@ -1,6 +1,72 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimary">#008577</color>
-    <color name="colorPrimaryDark">#00574B</color>
-    <color name="colorAccent">#D81B60</color>
+
+    <color name="colorPrimary">#66b3ff</color>
+    <color name="colorPrimaryDark">#66b3ff</color>
+    <color name="colorAccent">#66b3ff</color>
+
+    <!--主题色-->
+    <color name="color_main">#66b3ff</color>
+    <color name="action_bar_start">#97cbff</color>
+    <color name="action_bar_end">#46a3ff</color>
+
+    <color name="white">#ffffff</color>
+    <color name="transparent">#00000000</color>
+    <color name="black_pure">#000000</color>
+    <color name="black">#232323</color>
+    <color name="gray_dark">#666666</color>
+    <color name="gray_light">#999999</color>
+
+    <!--activity默认背景色-->
+    <color name="bg_default">#f3f3f3</color>
+
+    <!--状态栏颜色-->
+    <color name="view_status_bar">#00000000</color>
+    <!--标题栏图标颜色-->
+    <color name="action_bar_icon">@color/text_white</color>
+    <!--标题栏颜色-->
+    <color name="action_bar_bg">@color/color_main</color>
+    <color name="action_bar_blur_bg">#23000000</color>
+    <!--标题栏颜色-->
+    <color name="action_bar_text">@color/text_white</color>
+    <!--进度条颜色-->
+    <color name="progress_bar">#4891fc</color>
+    <!--ActionBar中的LoadingBar颜色-->
+    <color name="action_bar_loading_bar">#fd6e91</color>
+    <!--ActionBar中的搜错EditText背景色颜色-->
+    <color name="action_bar_search_et_bg">#ffffff</color>
+
+    <!--文字颜色-->
+    <color name="text_accent">@color/color_main</color>
+    <color name="text_black">#232323</color>
+    <color name="text_white">#ffffff</color>
+    <color name="text_gray_dark">#666666</color>
+    <color name="text_gray_light">#999999</color>
+
+    <!--Dialog弹出默认背景变暗的颜色-->
+    <color name="dialog_bg">#aa000000</color>
+
+    <!--分割线-->
+    <color name="line">#f3f3f3</color>
+
+    <!--loading dialog背景颜色-->
+    <color name="bg_loading">#88000000</color>
+    <!--loading dialog圆圈颜色-->
+    <color name="loading_circle">#ddffffff</color>
+
+    <!--loading 适配器中圆圈颜色-->
+    <color name="loading_adapter">@color/color_main</color>
+
+    <color name="bg_picture">#f6f6f6</color>
+
+    <color name="login_et_bg">#f3f3f3</color>
+    <color name="login_code_bg_send">@color/color_main</color>
+    <color name="login_code_bg_wait">@color/color_main</color>
+    <color name="text_delete">#ff3238</color>
+
+    <color name="PIE_PINK">#FFB6C1</color>
+    <color name="PIE_ORANGE">#FFF0F5</color>
+    <color name="PIE_YELLOW">#DB7093</color>
+    <color name="PIE_GREEN">#DDA0DD</color>
+    <color name="PIE_BLUE">#AABB55</color>
 </resources>

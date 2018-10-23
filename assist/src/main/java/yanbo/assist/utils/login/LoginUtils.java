@@ -9,7 +9,6 @@ import android.widget.EditText;
 import android.widget.TextView;
 
 import yanbo.assist.R;
-import yanbo.assist.utils.Config;
 import yanbo.assist.utils.RegexUtils;
 import yanbo.assist.utils.ResourcesUtils;
 import yanbo.assist.utils.ToastMaker;
@@ -69,7 +68,7 @@ public class LoginUtils {
         //设置按钮不可点击
         btn_login.setClickable(false);
         //设置按钮半透明
-        btn_login.setAlpha(Config.LOGIN_ACTIVITY_BTN_UNCLICKABLE_ALPHA);
+        btn_login.setAlpha(0.6f);
         et_usernumber.addTextChangedListener(new TextWatcher() {
             @Override
             public void beforeTextChanged(CharSequence charSequence, int i, int i1, int i2) {
@@ -96,14 +95,14 @@ public class LoginUtils {
                         //设置按钮不可点击
                         btn_login.setClickable(false);
                         //设置按钮半透明
-                        btn_login.setAlpha(Config.LOGIN_ACTIVITY_BTN_UNCLICKABLE_ALPHA);
+                        btn_login.setAlpha(0.6f);
                         return;
                     }
                 } else {
                     //设置按钮不可点击
                     btn_login.setClickable(false);
                     //设置按钮半透明
-                    btn_login.setAlpha(Config.LOGIN_ACTIVITY_BTN_UNCLICKABLE_ALPHA);
+                    btn_login.setAlpha(0.6f);
                     return;
                 }
             }
@@ -134,14 +133,14 @@ public class LoginUtils {
                         //设置按钮不可点击
                         btn_login.setClickable(false);
                         //设置按钮半透明
-                        btn_login.setAlpha(Config.LOGIN_ACTIVITY_BTN_UNCLICKABLE_ALPHA);
+                        btn_login.setAlpha(0.6f);
                         return;
                     }
                 } else {
                     //设置按钮不可点击
                     btn_login.setClickable(false);
                     //设置按钮半透明
-                    btn_login.setAlpha(Config.LOGIN_ACTIVITY_BTN_UNCLICKABLE_ALPHA);
+                    btn_login.setAlpha(0.6f);
                     return;
                 }
             }

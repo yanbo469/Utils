@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <per.goweii.actionbarex.SimpleActionBar
+        android:id="@+id/action_bar_ex"
+        style="@style/ActionBarStyle"
+        app:simple_title_text="登录注册" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp">
+
+
+        <TextView
+            style="@style/text"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:gravity="center"
+            android:text="@string/login_login" />
+
+        <EditText
+            android:id="@+id/et_usernumber"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:background="@color/white"
+            android:gravity="center"
+            android:hint="@string/login_login_email_or_phone"
+            android:textSize="15sp" />
+
+        <EditText
+            android:id="@+id/et_password"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:background="@color/white"
+            android:gravity="center"
+            android:hint="@string/login_login_pwd"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/btn_login"
+            style="@style/button"
+            android:layout_marginTop="15dp"
+            android:text="@string/login_login" />
+
+        <TextView
+            style="@style/text"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:gravity="center"
+            android:text="@string/login_register" />
+
+        <EditText
+            android:id="@+id/et_reg_usernumber"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:background="@color/white"
+            android:gravity="center"
+            android:hint="@string/login_login_email_or_phone"
+            android:textSize="15sp" />
+
+        <EditText
+            android:id="@+id/et_et_code"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:background="@color/white"
+            android:gravity="center"
+            android:hint="@string/login_code_prompt"
+            android:textSize="15sp" />
+
+        <EditText
+            android:id="@+id/et_reg_password1"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:background="@color/white"
+            android:gravity="center"
+            android:hint="@string/login_password_prompt"
+            android:textSize="15sp" />
+
+        <EditText
+            android:id="@+id/et_reg_password2"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:background="@color/white"
+            android:gravity="center"
+            android:hint="@string/login_password_prompt_again"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/btn_btn_register"
+            style="@style/button"
+            android:layout_marginTop="15dp"
+            android:text="@string/login_register" />
+    </LinearLayout>
+</LinearLayout>

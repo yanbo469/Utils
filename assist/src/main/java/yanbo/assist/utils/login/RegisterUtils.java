@@ -9,7 +9,6 @@ import android.widget.EditText;
 import android.widget.TextView;
 
 import yanbo.assist.R;
-import yanbo.assist.utils.Config;
 import yanbo.assist.utils.RegexUtils;
 import yanbo.assist.utils.ResourcesUtils;
 import yanbo.assist.utils.ToastMaker;
@@ -83,7 +82,7 @@ public class RegisterUtils implements TextWatcher {
         //设置按钮不可点击
         btn_register.setClickable(false);
         //设置按钮半透明
-        btn_register.setAlpha(Config.LOGIN_ACTIVITY_BTN_UNCLICKABLE_ALPHA);
+        btn_register.setAlpha(0.6f);
     }
 
     @Override
@@ -115,14 +114,14 @@ public class RegisterUtils implements TextWatcher {
                 //设置按钮不可点击
                 btn_register.setClickable(false);
                 //设置按钮半透明
-                btn_register.setAlpha(Config.LOGIN_ACTIVITY_BTN_UNCLICKABLE_ALPHA);
+                btn_register.setAlpha(0.6f);
                 return;
             }
         } else {
             //设置按钮不可点击
             btn_register.setClickable(false);
             //设置按钮半透明
-            btn_register.setAlpha(Config.LOGIN_ACTIVITY_BTN_UNCLICKABLE_ALPHA);
+            btn_register.setAlpha(0.6f);
             return;
         }
 

@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">Utils</string>
+
+    <string name="dialog_btn_yes">确定</string>
+    <string name="dialog_btn_no">取消</string>
+    <string name="dialog_btn_close">关闭</string>
 </resources>

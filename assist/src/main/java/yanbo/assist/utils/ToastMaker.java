@@ -109,7 +109,7 @@ public class ToastMaker {
         int px48 = (int) DisplayInfoUtils.getInstance().dp2px(48);
         view.setPadding(px15, px5, px20, px5);
         view.setBackgroundResource(R.drawable.toast);
-        view.setTextColor(ResourcesUtils.getColor(R.color.text_white));
+        view.setTextColor(ResourcesUtils.getColor(R.color.white));
         view.setText(message);
         make(null).view(view)
                 .animation(R.style.Toast)

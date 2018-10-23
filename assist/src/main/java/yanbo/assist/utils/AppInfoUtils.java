@@ -4,7 +4,7 @@ import android.content.pm.PackageInfo;
 import android.content.pm.PackageManager;
 
 /**
- * 描述：敏感词过滤
+ * 描述：获取版本号
  *
  * @author Yanbo
  * @date 2018/8/28-上午10:04

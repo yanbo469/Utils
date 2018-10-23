@@ -1,11 +1,59 @@
 <resources>
-
-    <!-- Base application theme. -->
-    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
-        <!-- Customize your theme here. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
         <item name="colorPrimary">@color/colorPrimary</item>
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
         <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:windowActionBar">false</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowBackground">@color/white</item>
+        <!--<item name="android:windowIsTranslucent">true</item>-->
+        <item name="android:windowAnimationStyle">@style/right_in_left_out</item>
     </style>
 
+    <style name="right_in_left_out" parent="@android:style/Animation.Activity">
+        <item name="android:activityOpenEnterAnimation">@anim/activity_right_open_enter</item>
+        <item name="android:activityOpenExitAnimation">@anim/activity_left_open_exit</item>
+        <item name="android:activityCloseEnterAnimation">@anim/activity_left_close_enter</item>
+        <item name="android:activityCloseExitAnimation">@anim/activity_right_close_exit</item>
+    </style>
+    <style name="ActionBarStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@drawable/action_bar_bg</item>
+        <item name="ab_title_bar_height">@dimen/action_bar_height</item>
+        <item name="ab_bottom_line_height">@dimen/action_bar_bottom_line_height</item>
+        <item name="simple_left_image_res">@mipmap/back</item>
+        <item name="ab_status_bar_mode">light</item>
+        <item name="simple_title_text_color">@color/text_white</item>
+    </style>
+
+    <style name="DialogFullscreen" parent="@android:style/Theme.Dialog">
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowNoTitle">true</item>
+    </style>
+    <!-- 水平Loading条默认样式-->
+    <style name="LoadingBar" parent="Widget.MaterialProgressBar.ProgressBar.Horizontal.NoPadding">
+        <item name="android:minHeight">1dp</item>
+        <item name="android:maxHeight">5dp</item>
+    </style>
+    <!--通用按钮-->
+    <style name="button">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/button_high</item>
+        <item name="android:layout_marginRight">@dimen/button_margin</item>
+        <item name="android:layout_marginLeft">@dimen/button_margin</item>
+        <item name="android:background">@drawable/bg_button</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">@dimen/button_text_size</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <!--通用字体-->
+    <style name="text">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/text_black</item>
+        <item name="android:textSize">@dimen/text_size</item>
+    </style>
 </resources>
