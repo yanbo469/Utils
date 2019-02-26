@@ -3,7 +3,7 @@
 
 [GitHub主页](https://github.com/yanbo469/Utils）
 
-# 功能介绍
+## 功能介绍
 
 	1.高斯模糊图片，毛玻璃处理，马赛克，水印
 	2.登录注册
